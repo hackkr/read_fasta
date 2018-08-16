@@ -1,6 +1,7 @@
 import sys
 
 def read_fasta(filename):
+"""Reads a fasta file and returns sequence only"""
     sequence = ''
     f = open(filename)
     for line in f:
